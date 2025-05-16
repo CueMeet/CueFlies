@@ -1,0 +1,121 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+"""
+A date-time string at UTC, such as 2019-12-03T09:54:33Z, compliant with the date-time format.
+"""
+scalar DateTime
+
+input GetMeetingsOptionsInput {
+  date: String
+  limit: Int
+  offset: Int
+  tz: String
+}
+
+input InitializeMeetingBotInput {
+  meetingUrl: String!
+  name: String
+}
+
+type InitializeMeetingBotOutput {
+  meetingId: String!
+  status: Boolean!
+}
+
+type LoginResponse {
+  accessToken: String!
+  user: UserData!
+}
+
+type Meeting {
+  createdAt: DateTime!
+  cuemeetBotId: String
+  endTime: String!
+  hasTranscription: Boolean!
+  id: String!
+  isRecordingEnabled: Boolean!
+  meetLink: String!
+  meetingId: String!
+  meetingType: MeetingTypeEnum!
+  platform: MeetingPlatformEnum
+  rrule: String
+  startTime: String!
+  status: MeetingStatusEnum!
+  timeZone: String
+  title: String!
+  updatedAt: DateTime!
+}
+
+type MeetingAttendees {
+  createdAt: DateTime!
+  displayName: String!
+  email: String!
+  id: String!
+  meetingICalUID: String
+  meetingId: String
+  updatedAt: DateTime!
+  userId: String!
+}
+
+type MeetingOutput {
+  attendees: [MeetingAttendees!]!
+  meeting: Meeting!
+  transcript: [MeetingTranscriptSegment!]
+}
+
+enum MeetingPlatformEnum {
+  GOOGLE_MEET
+  TEAMS
+  ZOOM
+}
+
+enum MeetingStatusEnum {
+  CREATED
+  DELETED
+  UPDATED
+}
+
+type MeetingTranscriptSegment {
+  id: String!
+  speaker: String!
+  transcription_Data: String!
+  transcription_end_time_milliseconds: String!
+  transcription_start_time_milliseconds: String!
+}
+
+enum MeetingTypeEnum {
+  NON_RECURRING
+  RECURRING
+}
+
+type MeetingsPaginated {
+  attendees: [MeetingAttendees!]!
+  isBotLive: Boolean!
+  isRecorded: Boolean!
+  meeting: Meeting!
+}
+
+type Mutation {
+  initializeMeetingBot(options: InitializeMeetingBotInput!): InitializeMeetingBotOutput!
+  loginWithGoogle(token: String!): LoginResponse!
+  logout: Boolean!
+  refreshToken: RefreshTokenResponse!
+}
+
+type Query {
+  getMeetingTranscript(meetingId: String!): MeetingOutput!
+  getMeetings(options: GetMeetingsOptionsInput!): [MeetingsPaginated!]!
+}
+
+type RefreshTokenResponse {
+  accessToken: String!
+}
+
+type UserData {
+  avatar: String!
+  email: String!
+  id: String!
+  name: String!
+}

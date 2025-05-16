@@ -1,0 +1,18 @@
+{
+  "id": "meeting-bot",
+  "title": "Meeting Bot",
+  "description": "This guide will help you set up and use the CueCal Meeting Bot to enhance your meeting experience.",
+  "source": "@site/docs/meeting-bot.md",
+  "sourceDirName": ".",
+  "slug": "/meeting-bot",
+  "permalink": "/meeting-bot",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/CueMeet/CueCal/edit/main/docs/docs/meeting-bot.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  }
+}

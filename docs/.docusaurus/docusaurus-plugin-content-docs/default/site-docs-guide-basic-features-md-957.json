@@ -1,0 +1,23 @@
+{
+  "id": "guide/basic-features",
+  "title": "Basic Features",
+  "description": "This guide covers the essential features of CueCal that you'll use on a daily basis.",
+  "source": "@site/docs/guide/basic-features.md",
+  "sourceDirName": "guide",
+  "slug": "/guide/basic-features",
+  "permalink": "/guide/basic-features",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/CueMeet/CueCal/edit/main/docs/docs/guide/basic-features.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Getting Started",
+    "permalink": "/getting-started"
+  }
+}

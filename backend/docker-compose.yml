@@ -1,0 +1,45 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      - NODE_ENV=development
+      - PORT=8000
+      - ORIGIN=http://localhost:3000
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=cue-calender
+      - POSTGRES_HOST=localhost
+      - POSTGRES_PORT=5433
+      - GOOGLE_CLIENT_ID=599696819665-b15bq8dnbjqe04nnof6h02d4gl111k4h.apps.googleusercontent.com
+      - GOOGLE_CLIENT_SECRET=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
+      - GOOGLE_REDIRECT_URI=http://localhost:3000/google/callback
+    depends_on:
+      - postgres
+    networks:
+      - app-network
+
+  postgres:
+    image: postgres:15-alpine
+    ports:
+      - "5433:5432"
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=cue-calender
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
+
+volumes:
+  postgres-data: 

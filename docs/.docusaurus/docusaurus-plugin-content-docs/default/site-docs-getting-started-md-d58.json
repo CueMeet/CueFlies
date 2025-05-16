@@ -1,0 +1,27 @@
+{
+  "id": "getting-started",
+  "title": "Getting Started",
+  "description": "This guide will help you get CueCal up and running on your system.",
+  "source": "@site/docs/getting-started.md",
+  "sourceDirName": ".",
+  "slug": "/getting-started",
+  "permalink": "/getting-started",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/CueMeet/CueCal/edit/main/docs/docs/getting-started.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/"
+  },
+  "next": {
+    "title": "Basic Features",
+    "permalink": "/guide/basic-features"
+  }
+}

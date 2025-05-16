@@ -1,0 +1,20 @@
+{
+  "id": "index",
+  "title": "CueCal Documentation Structure",
+  "description": "Introduction",
+  "source": "@site/docs/index.md",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/CueMeet/CueCal/edit/main/docs/docs/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docs",
+  "next": {
+    "title": "Getting Started",
+    "permalink": "/getting-started"
+  }
+}

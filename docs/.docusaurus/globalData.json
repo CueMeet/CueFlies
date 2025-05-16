@@ -1,0 +1,51 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/",
+          "mainDocId": "index",
+          "docs": [
+            {
+              "id": "configuration",
+              "path": "/configuration"
+            },
+            {
+              "id": "getting-started",
+              "path": "/getting-started",
+              "sidebar": "docs"
+            },
+            {
+              "id": "guide/basic-features",
+              "path": "/guide/basic-features",
+              "sidebar": "docs"
+            },
+            {
+              "id": "index",
+              "path": "/",
+              "sidebar": "docs"
+            },
+            {
+              "id": "meeting-bot",
+              "path": "/meeting-bot"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "docs": {
+              "link": {
+                "path": "/",
+                "label": "Introduction"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

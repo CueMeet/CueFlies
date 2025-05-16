@@ -1,0 +1,18 @@
+{
+  "id": "calendar-setup",
+  "title": "Calendar Setup",
+  "description": "This guide will help you connect your Google Calendar to CueCal and manage your calendar settings.",
+  "source": "@site/docs/calendar-setup.md",
+  "sourceDirName": ".",
+  "slug": "/calendar-setup",
+  "permalink": "/docs/calendar-setup",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/CueMeet/CueCal/edit/main/docs/docs/calendar-setup.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  }
+}
