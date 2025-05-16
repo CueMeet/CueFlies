@@ -33,8 +33,8 @@ services:
       - POSTGRES_PORT=5432
       - REDIS_HOST=redis
       - REDIS_PORT=6379
-      - GOOGLE_CLIENT_ID=599696819665-b15bq8dnbjqe04nnof6h02d4gl111k4h.apps.googleusercontent.com
-      - GOOGLE_CLIENT_SECRET=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
+      - GOOGLE_CLIENT_ID=
+      - GOOGLE_CLIENT_SECRET=
       - GOOGLE_REDIRECT_URI=http://localhost:3000/google/callback
     depends_on:
       postgres:
