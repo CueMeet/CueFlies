@@ -8,6 +8,7 @@ import {
 import {
   GetMeetingsOptionsInput,
   InitializeMeetingBotInput,
+  TranscriptPaginationInput,
 } from './input/get-meetings-options.input';
 import {
   MeetingPlatformEnum,
@@ -145,6 +146,7 @@ export class MeetingService {
   async getMeetingTranscript(
     meetingId: string,
     user: User,
+    pagination: TranscriptPaginationInput = { page: 1, limit: 10 },
   ): Promise<MeetingOutput> {
     try {
       const meeting = await Meeting.findOne({
@@ -171,19 +173,27 @@ export class MeetingService {
       });
 
       let transcript = null;
+      let transcriptPagination = null;
 
       if (meeting.cuemeetBotId) {
         const transcriptResponse = await this.cueMeetService.retrieveTranscript(
           meeting.user.cueMeetApiKey,
           meeting.cuemeetBotId,
+          pagination,
         );
 
         if (transcriptResponse?.transcript) {
           transcript = transcriptResponse.transcript;
+          transcriptPagination = {
+            page: pagination.page,
+            limit: pagination.limit,
+            total: transcriptResponse.total || 0,
+            hasMore: transcriptResponse.hasMore || false,
+          };
         }
       }
 
-      return { meeting, attendees, transcript };
+      return { meeting, attendees, transcript, transcriptPagination };
     } catch (error) {
       console.error('Error in getMeetingTranscript:', error);
       throw new Error('Failed to retrieve meeting transcript');

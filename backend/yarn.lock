@@ -2451,10 +2451,10 @@ cssfilter@0.0.10:
   resolved "https://registry.npmjs.org/cssfilter/-/cssfilter-0.0.10.tgz"
   integrity sha512-FAaLDaplstoRsDR8XGYH51znUN0UY7nMc6Z9/fvE8EXGwvJE9hu7W2vHwx1+bd6gCYnln9nLbzxFTrcO9YQDZw==
 
-cuemeet-client@^1.0.5:
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/cuemeet-client/-/cuemeet-client-1.0.5.tgz#9567509a793004da5df322e4ad898910b8387037"
-  integrity sha512-T1iKzo55fh8Yht7uvOHEa7msPpfRX/c79uxDPa97lU5YogvsVCmmPgVn+ToUbSbSy/skSkIuwy9R2PtJfs/8IA==
+cuemeet-client@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/cuemeet-client/-/cuemeet-client-1.0.6.tgz#06c7df6293b4ef0e9b51bc39902aa679ce1c82b2"
+  integrity sha512-Lz1yqhHXHAmkISnjM/0MQjiZ9jQrIp4nc+j3SfHzdIbyjwkKj6SHblPEtc9CmyNkbWdRQEdnnjvAoHoc71Uo6g==
   dependencies:
     axios "^1.6.7"
 

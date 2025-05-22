@@ -57,10 +57,11 @@ export class CueMeetService {
     return bot;
   }
 
-  async retrieveTranscript(apiKey: string, botId: string) {
+  async retrieveTranscript(apiKey: string, botId: string, pagination?: { page: number; limit: number },) {
     const transcript = await this.cueMeetClient.retrieveTranscript(
       apiKey,
       botId,
+      pagination,
     );
 
     return transcript;

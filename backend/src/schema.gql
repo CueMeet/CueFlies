@@ -63,6 +63,7 @@ type MeetingOutput {
   attendees: [MeetingAttendees!]!
   meeting: Meeting!
   transcript: [MeetingTranscriptSegment!]
+  transcriptPagination: TranscriptPagination
 }
 
 enum MeetingPlatformEnum {
@@ -105,12 +106,24 @@ type Mutation {
 }
 
 type Query {
-  getMeetingTranscript(meetingId: String!): MeetingOutput!
+  getMeetingTranscript(meetingId: String!, pagination: TranscriptPaginationInput): MeetingOutput!
   getMeetings(options: GetMeetingsOptionsInput!): [MeetingsPaginated!]!
 }
 
 type RefreshTokenResponse {
   accessToken: String!
+}
+
+type TranscriptPagination {
+  hasMore: Boolean!
+  limit: Int!
+  page: Int!
+  total: Int!
+}
+
+input TranscriptPaginationInput {
+  limit: Int! = 10
+  page: Int! = 1
 }
 
 type UserData {

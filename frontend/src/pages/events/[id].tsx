@@ -25,14 +25,26 @@ interface TranscriptMessage {
 const EventOverviewPage = () => {
   const router = useRouter();
   const [activeTab, setActiveTab] = useState<TabType>('overview');
+  const [currentPage, setCurrentPage] = useState(1);
+  const [allTranscripts, setAllTranscripts] = useState<TranscriptMessage[]>([]);
 
-  const { data, loading } = useQuery(GET_MEETING_TRANSCRIPT, {
+  const { data, loading, fetchMore } = useQuery(GET_MEETING_TRANSCRIPT, {
     variables: {
-      meetingId: router.query.id
+      meetingId: router.query.id,
+      pagination: {
+        page: 1,
+        limit: 10
+      }
+    },
+    onCompleted: (data) => {
+      if (data?.getMeetingTranscript?.transcript) {
+        setAllTranscripts(data.getMeetingTranscript.transcript);
+      }
     }
   });
 
   const meeting = data?.getMeetingTranscript?.meeting;
+  const hasMore = data?.getMeetingTranscript?.transcriptPagination?.hasMore;
 
   const handleBack = () => {
     router.back();
@@ -100,8 +112,30 @@ const EventOverviewPage = () => {
     });
   };
 
+  const handleLoadMore = async () => {
+    const nextPage = currentPage + 1;
+    try {
+      const { data: newData } = await fetchMore({
+        variables: {
+          meetingId: router.query.id,
+          pagination: {
+            page: nextPage,
+            limit: 10
+          }
+        }
+      });
+
+      if (newData?.getMeetingTranscript?.transcript) {
+        setAllTranscripts(prev => [...prev, ...newData.getMeetingTranscript.transcript]);
+        setCurrentPage(nextPage);
+      }
+    } catch (error) {
+      console.error('Error loading more transcripts:', error);
+    }
+  };
+
   const renderTabContent = () => {
-    if (loading) {
+    if (loading && currentPage === 1) {
       return (
         <div className="p-6">
           <p className="text-gray-500 text-center">Loading meeting details...</p>
@@ -119,14 +153,29 @@ const EventOverviewPage = () => {
 
     switch (activeTab) {
       case 'transcript':
-        if (!data?.getMeetingTranscript?.transcript) {
+        if (!allTranscripts.length) {
           return (
             <div className="p-6">
               <p className="text-gray-500 text-center">No transcript available for this meeting</p>
             </div>
           );
         }
-        return <TranscriptView messages={transformTranscriptData(data.getMeetingTranscript.transcript)} />;
+        return (
+          <div>
+            <TranscriptView messages={transformTranscriptData(allTranscripts)} />
+            {hasMore && (
+              <div className="p-4 text-center">
+                <button
+                  onClick={handleLoadMore}
+                  disabled={loading}
+                  className="px-4 py-2 bg-primary text-white rounded-md hover:bg-primary/90 disabled:opacity-50 disabled:cursor-not-allowed"
+                >
+                  {loading ? 'Loading...' : 'Load More'}
+                </button>
+              </div>
+            )}
+          </div>
+        );
       case 'action-items':
         return (
           <div className="p-6">

@@ -35,3 +35,14 @@ export class InitializeMeetingBotInput {
   @IsString()
   name?: string;
 }
+
+@InputType()
+export class TranscriptPaginationInput {
+  @Field(() => Int, { defaultValue: 1 })
+  @IsNumber()
+  page: number;
+
+  @Field(() => Int, { defaultValue: 10 })
+  @IsNumber()
+  limit: number;
+}

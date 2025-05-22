@@ -36,8 +36,8 @@ export const INITIALIZE_MEETING_BOT = gql`
 `;
 
 export const GET_MEETING_TRANSCRIPT = gql`
-  query getMeetingTranscript($meetingId: String!) {
-    getMeetingTranscript(meetingId: $meetingId) {
+  query getMeetingTranscript($meetingId: String!, $pagination: TranscriptPaginationInput) {
+    getMeetingTranscript(meetingId: $meetingId, pagination: $pagination) {
       transcript {
         id
         speaker
@@ -45,7 +45,13 @@ export const GET_MEETING_TRANSCRIPT = gql`
         transcription_end_time_milliseconds
         transcription_start_time_milliseconds
       }
-    meeting {
+      transcriptPagination {
+        page
+        limit
+        total
+        hasMore
+      }
+      meeting {
         id
         meetingId
         title

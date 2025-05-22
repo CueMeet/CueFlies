@@ -2,6 +2,7 @@ import { Resolver, Args, Query, Mutation } from '@nestjs/graphql';
 import {
   GetMeetingsOptionsInput,
   InitializeMeetingBotInput,
+  TranscriptPaginationInput,
 } from './input/get-meetings-options.input';
 import {
   InitializeMeetingBotOutput,
@@ -40,8 +41,10 @@ export class MeetingResolver {
   async getMeetingTranscript(
     @Args('meetingId')
     meetingId: string,
+    @Args('pagination', { nullable: true, type: () => TranscriptPaginationInput })
+    pagination: TranscriptPaginationInput,
     @CurrentUser() user: User,
   ): Promise<MeetingOutput> {
-    return this.meetingService.getMeetingTranscript(meetingId, user);
+    return this.meetingService.getMeetingTranscript(meetingId, user, pagination);
   }
 }

@@ -34,7 +34,6 @@
     "class-transformer": "^0.5.1",
     "class-validator": "^0.14.1",
     "cookie-parser": "^1.4.7",
-    "cuemeet-client": "^1.0.5",
     "google-auth-library": "^9.15.1",
     "googleapis": "^148.0.0",
     "graphql": "^16.10.0",

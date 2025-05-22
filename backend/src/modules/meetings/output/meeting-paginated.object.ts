@@ -1,4 +1,4 @@
-import { Field, ObjectType } from '@nestjs/graphql';
+import { Field, ObjectType, Int } from '@nestjs/graphql';
 
 import { Meeting, MeetingAttendees } from '../../../database/postgres/models';
 
@@ -18,6 +18,21 @@ class MeetingTranscriptSegment {
 
   @Field(() => String)
   transcription_Data: string;
+}
+
+@ObjectType()
+class TranscriptPagination {
+  @Field(() => Int)
+  page: number;
+
+  @Field(() => Int)
+  limit: number;
+
+  @Field(() => Int)
+  total: number;
+
+  @Field(() => Boolean)
+  hasMore: boolean;
 }
 
 @ObjectType()
@@ -54,4 +69,7 @@ export class MeetingOutput {
 
   @Field(() => [MeetingTranscriptSegment], { nullable: true })
   transcript: MeetingTranscriptSegment[];
+
+  @Field(() => TranscriptPagination, { nullable: true })
+  transcriptPagination: TranscriptPagination;
 }
