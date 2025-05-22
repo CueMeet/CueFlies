@@ -4,11 +4,11 @@ sidebar_position: 5
 
 # Meeting Bot
 
-This guide will help you set up and use the CueCal Meeting Bot to enhance your meeting experience.
+This guide will help you set up and use the CueFlies Meeting Bot to enhance your meeting experience.
 
 ## What is the Meeting Bot?
 
-The CueCal Meeting Bot is an AI-powered assistant that can:
+The CueFlies Meeting Bot is an AI-powered assistant that can:
 - Join your meetings automatically
 - Provide real-time transcription
 - Generate meeting summaries
@@ -39,7 +39,7 @@ The bot requires the following permissions:
 
 1. **Automatic Join**
    - The bot will automatically join meetings from your calendar
-   - It will appear as a participant named "CueCal Assistant"
+   - It will appear as a participant named "CueFlies Assistant"
 
 2. **Manual Join**
    - Click "Add to live meeting" on the dashboard
@@ -146,8 +146,8 @@ Access:
 
 If you encounter issues:
 1. Check our [FAQ](/docs/faq)
-2. Visit our [GitHub issues](https://github.com/cuecal/cuecal/issues)
-3. Join our [Discord community](https://discord.gg/cuecal)
+2. Visit our [GitHub issues](https://github.com/CueFlies/CueFlies/issues)
+3. Join our [Discord community](https://discord.gg/CueFlies)
 
 ## Best Practices
 

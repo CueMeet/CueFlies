@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Getting Started
 
-This guide will help you get CueCal up and running on your system.
+This guide will help you get CueFlies up and running on your system.
 
 ## Prerequisites
 
@@ -21,8 +21,8 @@ Before you begin, ensure you have the following installed:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/CueMeet/CueCal.git
-   cd cuecal
+   git clone https://github.com/CueMeet/CueFlies.git
+   cd CueFlies
    ```
 
 2. Start the application using Docker Compose:
@@ -36,8 +36,8 @@ Before you begin, ensure you have the following installed:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/CueMeet/CueCal.git
-   cd cuecal
+   git clone https://github.com/CueMeet/CueFlies.git
+   cd CueFlies
    ```
 
 2. Install backend dependencies:

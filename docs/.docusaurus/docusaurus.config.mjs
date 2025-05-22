@@ -4,13 +4,13 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "CueCal Documentation",
+  "title": "CueFlies Documentation",
   "tagline": "Open Source Calendar and Meeting Management System",
   "favicon": "img/favicon.ico",
-  "url": "https://cuecal.github.io",
+  "url": "https://CueFlies.github.io",
   "baseUrl": "/",
   "organizationName": "CueMeet",
-  "projectName": "CueCal",
+  "projectName": "CueFlies",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "i18n": {
@@ -26,18 +26,18 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "/Users/thujeevan/Documents/Cuecard/project/cuemeet/Apps/CueCal/docs/sidebars.js",
-          "editUrl": "https://github.com/CueMeet/CueCal/edit/main/docs/",
+          "sidebarPath": "/Users/thujeevan/Documents/Cuecard/project/cuemeet/Apps/CueFlies/docs/sidebars.js",
+          "editUrl": "https://github.com/CueMeet/CueFlies/edit/main/docs/",
           "routeBasePath": "/"
         },
         "blog": {
           "showReadingTime": true,
-          "editUrl": "https://github.com/CueMeet/CueCal/edit/main/docs/blog/",
+          "editUrl": "https://github.com/CueMeet/CueFlies/edit/main/docs/blog/",
           "blogSidebarTitle": "All posts",
           "blogSidebarCount": "ALL"
         },
         "theme": {
-          "customCss": "/Users/thujeevan/Documents/Cuecard/project/cuemeet/Apps/CueCal/docs/src/css/custom.css"
+          "customCss": "/Users/thujeevan/Documents/Cuecard/project/cuemeet/Apps/CueFlies/docs/src/css/custom.css"
         }
       }
     ]
@@ -45,9 +45,9 @@ export default {
   "themeConfig": {
     "image": "img/docusaurus-social-card.jpg",
     "navbar": {
-      "title": "CueCal",
+      "title": "CueFlies",
       "logo": {
-        "alt": "CueCal Logo",
+        "alt": "CueFlies Logo",
         "src": "img/logo.png"
       },
       "items": [],
@@ -70,7 +70,7 @@ export default {
           "items": [
             {
               "label": "GitHub",
-              "href": "https://github.com/CueMeet/CueCal"
+              "href": "https://github.com/CueMeet/CueFlies"
             }
           ]
         },
@@ -84,7 +84,7 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2025 CueCal. Built with Docusaurus."
+      "copyright": "Copyright © 2025 CueFlies. Built with Docusaurus."
     },
     "prism": {
       "theme": {

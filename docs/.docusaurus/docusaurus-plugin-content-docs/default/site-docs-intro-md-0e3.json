@@ -1,6 +1,6 @@
 {
   "id": "intro",
-  "title": "CueCal Documentation Structure",
+  "title": "CueFlies Documentation Structure",
   "description": "Introduction",
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
@@ -8,7 +8,7 @@
   "permalink": "/intro",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/CueMeet/CueCal/edit/main/docs/docs/intro.md",
+  "editUrl": "https://github.com/CueMeet/CueFlies/edit/main/docs/docs/intro.md",
   "tags": [],
   "version": "current",
   "frontMatter": {},

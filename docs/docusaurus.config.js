@@ -7,18 +7,18 @@ const darkCodeTheme = themes.dracula;
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'CueCal Documentation',
+  title: 'CueFlies Documentation',
   tagline: 'Open Source Calendar and Meeting Management System',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://cuecal.github.io',
+  url: 'https://CueFlies.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   baseUrl: '/',
 
   // GitHub pages deployment config
   organizationName: 'CueMeet',
-  projectName: 'CueCal',
+  projectName: 'CueFlies',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -37,12 +37,12 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/CueMeet/CueCal/edit/main/docs/',
+          editUrl: 'https://github.com/CueMeet/CueFlies/edit/main/docs/',
           routeBasePath: '/', // Serve the docs at the site's root
         },
         blog: {
           showReadingTime: true,
-          editUrl: 'https://github.com/CueMeet/CueCal/edit/main/docs/blog/',
+          editUrl: 'https://github.com/CueMeet/CueFlies/edit/main/docs/blog/',
           blogSidebarTitle: 'All posts',
           blogSidebarCount: 'ALL',
         },
@@ -58,9 +58,9 @@ const config = {
     ({
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'CueCal',
+        title: 'CueFlies',
         logo: {
-          alt: 'CueCal Logo',
+          alt: 'CueFlies Logo',
           src: 'img/logo.png',
         },
         items: [] // Remove all links, only show logo and title
@@ -82,7 +82,7 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/CueMeet/CueCal',
+                href: 'https://github.com/CueMeet/CueFlies',
               }
             ],
           },
@@ -96,7 +96,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} CueCal. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} CueFlies. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

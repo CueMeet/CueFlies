@@ -9,7 +9,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <ApolloProvider client={apolloClient}>
       <Head>
-        <title>CueCal Meeting Notetaker</title>
+        <title>CueFlies Meeting Notetaker</title>
       </Head>
       <Component {...pageProps} />
       <Toaster

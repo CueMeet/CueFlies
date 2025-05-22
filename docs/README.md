@@ -1,6 +1,6 @@
-# CueCal Documentation
+# CueFlies Documentation
 
-This directory contains the documentation for CueCal, built using [Docusaurus](https://docusaurus.io/).
+This directory contains the documentation for CueFlies, built using [Docusaurus](https://docusaurus.io/).
 
 ## Getting Started
 
@@ -21,7 +21,7 @@ yarn start
 ## Documentation Structure
 
 - `docs/` - Contains all the documentation pages
-  - `intro.md` - Introduction to CueCal
+  - `intro.md` - Introduction to CueFlies
   - `installation/` - Installation guides
   - `configuration/` - Configuration guides
   - `user-guide/` - User documentation
@@ -50,4 +50,4 @@ The documentation is automatically deployed to GitHub Pages when changes are pus
 
 ## License
 
-This documentation is part of CueCal and is released under the MIT License. 
+This documentation is part of CueFlies and is released under the MIT License. 

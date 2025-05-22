@@ -1,16 +1,16 @@
 import Link from '@docusaurus/Link';
 
-# CueCal Documentation Structure
+# CueFlies Documentation Structure
 
 <div className="doc-cards-grid">
   <div className="doc-card">
     <h3>Introduction</h3>
-    <p>Overview of CueCal, its features, and project purpose.</p>
+    <p>Overview of CueFlies, its features, and project purpose.</p>
     <Link className="button button--success" to="/intro">Learn More</Link>
   </div>
   <div className="doc-card">
     <h3>Getting Started</h3>
-    <p>How to install, set up, and start using CueCal.</p>
+    <p>How to install, set up, and start using CueFlies.</p>
     <Link className="button button--success" to="/getting-started">Learn More</Link>
   </div>
   <div className="doc-card">
@@ -41,11 +41,11 @@ sidebar_position: 1
 
 # Introduction
 
-Welcome to CueCal, an intelligent meeting management and calendar system designed to streamline your meeting workflow and enhance collaboration through automated note-taking and transcription.
+Welcome to CueFlies, an intelligent meeting management and calendar system designed to streamline your meeting workflow and enhance collaboration through automated note-taking and transcription.
 
-## What is CueCal?
+## What is CueFlies?
 
-CueCal is a modern, AI-powered meeting management platform that helps individuals and teams manage their meetings more effectively. It integrates with popular meeting platforms and provides automated meeting assistance, transcription, and insights. Built with a focus on user experience and productivity, CueCal offers:
+CueFlies is a modern, AI-powered meeting management platform that helps individuals and teams manage their meetings more effectively. It integrates with popular meeting platforms and provides automated meeting assistance, transcription, and insights. Built with a focus on user experience and productivity, CueFlies offers:
 
 - Automated meeting management
 - Real-time meeting transcription
@@ -80,13 +80,13 @@ CueCal is a modern, AI-powered meeting management platform that helps individual
 
 ## Getting Started
 
-To get started with CueCal, you can:
+To get started with CueFlies, you can:
 
 1. [Install the application](/docs/getting-started)
 
 ## Contributing
 
-CueCal is an open-source project, and we welcome contributions from the community. Whether you're a developer, designer, or documentation writer, there are many ways to contribute:
+CueFlies is an open-source project, and we welcome contributions from the community. Whether you're a developer, designer, or documentation writer, there are many ways to contribute:
 
 - Report bugs
 - Suggest new features
@@ -94,16 +94,16 @@ CueCal is an open-source project, and we welcome contributions from the communit
 - Improve documentation
 - Help with testing
 
-Visit our [GitHub repository](https://github.com/cuecal/cuecal) to learn more about contributing.
+Visit our [GitHub repository](https://github.com/CueFlies/CueFlies) to learn more about contributing.
 
 ## Support
 
 Need help? Here are some ways to get support:
 
 - Check our [documentation](/docs)
-- Join our [Discord community](https://discord.gg/cuecal)
-- Open an issue on [GitHub](https://github.com/cuecal/cuecal/issues)
+- Join our [Discord community](https://discord.gg/CueFlies)
+- Open an issue on [GitHub](https://github.com/CueFlies/CueFlies/issues)
 
 ## License
 
-CueCal is released under the MIT License. See our [LICENSE](https://github.com/cuecal/cuecal/blob/main/LICENSE) file for details. 
+CueFlies is released under the MIT License. See our [LICENSE](https://github.com/CueFlies/CueFlies/blob/main/LICENSE) file for details. 

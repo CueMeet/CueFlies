@@ -4,11 +4,11 @@ sidebar_position: 3
 
 # Basic Features
 
-This guide covers the essential features of CueCal that you'll use on a daily basis.
+This guide covers the essential features of CueFlies that you'll use on a daily basis.
 
 ## Calendar Integration
 
-CueCal seamlessly integrates with your Google Calendar to:
+CueFlies seamlessly integrates with your Google Calendar to:
 
 - Automatically sync and display your meetings
 - Support multiple meeting platforms (Google Meet, Zoom, Microsoft Teams)
@@ -18,7 +18,7 @@ CueCal seamlessly integrates with your Google Calendar to:
 
 ## Calendar Views
 
-CueCal provides a clean and intuitive interface to view your schedule:
+CueFlies provides a clean and intuitive interface to view your schedule:
 
 ### Month View
 - Monthly calendar overview with easy navigation

@@ -312,7 +312,7 @@ export class MeetingService {
       meetLink: options.meetingUrl,
       meetingType: MeetingTypeEnum.NON_RECURRING,
       platform: meetingPlatform,
-      title: options.name || 'CueCal Note Taker',
+      title: options.name || 'CueFlies Note Taker',
       startTime: moment().toISOString(),
       endTime: moment().add(1, 'hour').toISOString(),
       status: MeetingStatusEnum.CREATED,
@@ -321,7 +321,7 @@ export class MeetingService {
     try {
       const meetingBot = await this.cueMeetService.createBot(
         user.cueMeetApiKey,
-        `${user.name.split(' ')[0]} - CueCal Note Taker`,
+        `${user.name.split(' ')[0]} - CueFlies Note Taker`,
         options.meetingUrl,
       );
 

@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # Configuration
 
-This guide will help you customize CueCal to match your preferences and workflow.
+This guide will help you customize CueFlies to match your preferences and workflow.
 
 ## General Settings
 
@@ -149,8 +149,8 @@ This guide will help you customize CueCal to match your preferences and workflow
 
 If you need assistance:
 1. Check our [FAQ](/docs/faq)
-2. Visit our [GitHub issues](https://github.com/cuecal/cuecal/issues)
-3. Join our [Discord community](https://discord.gg/cuecal)
+2. Visit our [GitHub issues](https://github.com/CueFlies/CueFlies/issues)
+3. Join our [Discord community](https://discord.gg/CueFlies)
 
 ## Next Steps
 

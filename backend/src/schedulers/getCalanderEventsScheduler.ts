@@ -132,7 +132,7 @@ export class CalendarEventsScheduler {
           // Create bot using CueMeet service
           const meetingBot = await this.cueMeetService.createBot(
             meeting.user.cueMeetApiKey,
-            `${meeting.user.name.split(' ')[0]} - CueCal Note Taker`,
+            `${meeting.user.name.split(' ')[0]} - CueFlies Note Taker`,
             meeting.meetLink,
           );
 

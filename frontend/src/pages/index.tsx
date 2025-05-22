@@ -28,7 +28,7 @@ const HomePage = () => {
                   </span>
                 </h1>
                 <p className="mt-6 text-base text-gray-500 sm:text-lg max-w-2xl mx-auto">
-                  CueCal automatically joins your meetings, records conversations, and generates detailed notes and insights.
+                  CueFlies automatically joins your meetings, records conversations, and generates detailed notes and insights.
                 </p>
                 <div className="mt-8 flex justify-center gap-4">
                   {isAuthenticated ? (
