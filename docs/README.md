@@ -50,4 +50,4 @@ The documentation is automatically deployed to GitHub Pages when changes are pus
 
 ## License
 
-This documentation is part of CueFlies and is released under the MIT License. 
+This documentation is part of CueFlies and is released under the MIT License.
