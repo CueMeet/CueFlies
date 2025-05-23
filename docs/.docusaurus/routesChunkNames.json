@@ -1,41 +1,41 @@
 {
-  "/CueCal/markdown-page-f45": {
+  "/CueFlies/markdown-page-f45": {
     "__comp": "1f391b9e",
     "__context": {
       "plugin": "a7456010"
     },
     "content": "393be207"
   },
-  "/CueCal/docs-9cc": {
+  "/CueFlies/docs-9cc": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "aba21aa0"
     }
   },
-  "/CueCal/docs-64f": {
+  "/CueFlies/docs-64f": {
     "__comp": "a7bd4aaa",
     "__props": "4a39b57f"
   },
-  "/CueCal/docs-65f": {
+  "/CueFlies/docs-65f": {
     "__comp": "a94703ab"
   },
-  "/CueCal/docs/intro-415": {
+  "/CueFlies/docs/intro-415": {
     "__comp": "17896441",
     "content": "0e384e19"
   },
-  "/CueCal/docs/tutorial-basics/direct-installation-b9e": {
+  "/CueFlies/docs/tutorial-basics/direct-installation-b9e": {
     "__comp": "17896441",
     "content": "e6ed62ed"
   },
-  "/CueCal/docs/tutorial-basics/docker-installation-431": {
+  "/CueFlies/docs/tutorial-basics/docker-installation-431": {
     "__comp": "17896441",
     "content": "6a3b7d82"
   },
-  "/CueCal/docs/tutorial-basics/installation-9be": {
+  "/CueFlies/docs/tutorial-basics/installation-9be": {
     "__comp": "17896441",
     "content": "8a9fd8cb"
   },
-  "/CueCal/-49e": {
+  "/CueFlies/-49e": {
     "__comp": "1df93b7f",
     "__context": {
       "plugin": "a7456010"

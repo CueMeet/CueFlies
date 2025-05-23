@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'CueCal',
+  title: 'CueFlies',
   tagline: 'AI-Powered Meeting Management',
   favicon: 'img/logo.png',
 
@@ -13,12 +13,12 @@ const config: Config = {
   url: 'https://cuemeet.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/CueCal/',
+  baseUrl: '/CueFlies/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'CueMeet', // Usually your GitHub org/user name.
-  projectName: 'CueCal', // Usually your repo name.
+  projectName: 'CueFlies', // Usually your repo name.
 
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
@@ -39,7 +39,7 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/CueMeet/CueCal/tree/main/docs/',
+          editUrl: 'https://github.com/CueMeet/CueFlies/tree/main/docs/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -52,9 +52,9 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'CueCal',
+      title: 'CueFlies',
       logo: {
-        alt: 'CueCal Logo',
+        alt: 'CueFlies Logo',
         src: 'img/logo.png',
       },
       items: [
@@ -105,7 +105,7 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/CueMeet/CueCal',
+              href: 'https://github.com/CueMeet/CueFlies',
             },
           ],
         },

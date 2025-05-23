@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Docker Installation Guide
 
-This guide will help you set up CueCal using Docker on your local machine for development.
+This guide will help you set up CueFlies using Docker on your local machine for development.
 
 ## Prerequisites
 
@@ -18,7 +18,7 @@ Before you begin, ensure you have the following installed:
 1. Clone the repository:
 ```bash
 git clone <repository-url>
-cd cuemeet/Apps/CueCal
+cd cuemeet/Apps/CueFlies
 ```
 
 ## Docker Setup

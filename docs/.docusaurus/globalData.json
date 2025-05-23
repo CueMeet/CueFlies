@@ -1,33 +1,33 @@
 {
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/CueCal/docs",
+      "path": "/CueFlies/docs",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/CueCal/docs",
+          "path": "/CueFlies/docs",
           "mainDocId": "intro",
           "docs": [
             {
               "id": "intro",
-              "path": "/CueCal/docs/intro",
+              "path": "/CueFlies/docs/intro",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "tutorial-basics/direct-installation",
-              "path": "/CueCal/docs/tutorial-basics/direct-installation",
+              "path": "/CueFlies/docs/tutorial-basics/direct-installation",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "tutorial-basics/docker-installation",
-              "path": "/CueCal/docs/tutorial-basics/docker-installation",
+              "path": "/CueFlies/docs/tutorial-basics/docker-installation",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "tutorial-basics/installation",
-              "path": "/CueCal/docs/tutorial-basics/installation",
+              "path": "/CueFlies/docs/tutorial-basics/installation",
               "sidebar": "tutorialSidebar"
             }
           ],
@@ -35,7 +35,7 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/CueCal/docs/intro",
+                "path": "/CueFlies/docs/intro",
                 "label": "Introduction"
               }
             }

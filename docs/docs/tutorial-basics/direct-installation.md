@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Direct Installation Guide
 
-This guide will help you set up CueCal directly on your local machine for development without using Docker.
+This guide will help you set up CueFlies directly on your local machine for development without using Docker.
 
 ## Prerequisites
 
@@ -20,7 +20,7 @@ Before you begin, ensure you have the following installed:
 1. Clone the repository:
 ```bash
 git clone <repository-url>
-cd cuemeet/Apps/CueCal
+cd cuemeet/Apps/CueFlies
 ```
 
 ## Backend Setup

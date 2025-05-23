@@ -4,11 +4,11 @@ sidebar_position: 1
 
 # Introduction
 
-Welcome to CueCal Documentation! CueCal is a modern calendar integration and meeting management platform designed to streamline your meeting experience with AI-powered note-taking and analytics.
+Welcome to CueFlies Documentation! CueFlies is a modern calendar integration and meeting management platform designed to streamline your meeting experience with AI-powered note-taking and analytics.
 
-## What is CueCal?
+## What is CueFlies?
 
-CueCal is a comprehensive calendar platform that helps users manage their meetings efficiently. It provides features for Google Calendar integration, meeting management, automated note-taking, and meeting analytics.
+CueFlies is a comprehensive calendar platform that helps users manage their meetings efficiently. It provides features for Google Calendar integration, meeting management, automated note-taking, and meeting analytics.
 
 ## Key Features
 
@@ -20,7 +20,7 @@ CueCal is a comprehensive calendar platform that helps users manage their meetin
 
 ## System Architecture
 
-CueCal consists of two main components:
+CueFlies consists of two main components:
 
 ### Backend (NestJS)
 - RESTful API architecture
@@ -42,7 +42,7 @@ CueCal consists of two main components:
 
 ## Getting Started
 
-To get started with CueCal, you can:
+To get started with CueFlies, you can:
 
 1. Check out the [Installation Guide](./tutorial-basics/installation)
 

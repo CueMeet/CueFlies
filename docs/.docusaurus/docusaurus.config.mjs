@@ -4,13 +4,13 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "CueCal",
+  "title": "CueFlies",
   "tagline": "AI-Powered Meeting Management",
   "favicon": "img/logo.png",
   "url": "https://cuemeet.github.io",
-  "baseUrl": "/CueCal/",
+  "baseUrl": "/CueFlies/",
   "organizationName": "CueMeet",
-  "projectName": "CueCal",
+  "projectName": "CueFlies",
   "onBrokenLinks": "warn",
   "onBrokenMarkdownLinks": "warn",
   "i18n": {
@@ -27,7 +27,7 @@ export default {
       {
         "docs": {
           "sidebarPath": "./sidebars.ts",
-          "editUrl": "https://github.com/CueMeet/CueCal/tree/main/docs/"
+          "editUrl": "https://github.com/CueMeet/CueFlies/tree/main/docs/"
         },
         "theme": {
           "customCss": "./src/css/custom.css"
@@ -38,9 +38,9 @@ export default {
   "themeConfig": {
     "image": "img/docusaurus-social-card.jpg",
     "navbar": {
-      "title": "CueCal",
+      "title": "CueFlies",
       "logo": {
-        "alt": "CueCal Logo",
+        "alt": "CueFlies Logo",
         "src": "img/logo.png"
       },
       "items": [
@@ -69,7 +69,7 @@ export default {
           "items": [
             {
               "label": "GitHub",
-              "href": "https://github.com/CueMeet/CueCal"
+              "href": "https://github.com/CueMeet/CueFlies"
             }
           ]
         }

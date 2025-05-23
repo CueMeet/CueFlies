@@ -10,11 +10,11 @@ export default function Home(): ReactNode {
 
   return (
     <Layout
-      title="Welcome to CueCal Documentation"
+      title="Welcome to CueFlies Documentation"
       description="Modern calendar integration and meeting management platform documentation">
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
-          <h1 className="hero__title">Welcome to CueCal</h1>
+          <h1 className="hero__title">Welcome to CueFlies</h1>
           <p className="hero__subtitle">
             A calendar integration and meeting management platform with note-taking.
           </p>
@@ -29,7 +29,7 @@ export default function Home(): ReactNode {
               </div>
               <div className="card__body">
                 <p>
-                  Learn about CueCal's features, architecture, and how it can help streamline your meeting experience with AI-powered note-taking.
+                  Learn about CueFlies's features, architecture, and how it can help streamline your meeting experience with AI-powered note-taking.
                 </p>
               </div>
               <div className="card__footer">
@@ -67,7 +67,7 @@ export default function Home(): ReactNode {
               </div>
               <div className="card__body">
                 <p>
-                  Set up CueCal directly on your machine for more control over individual service configurations.
+                  Set up CueFlies directly on your machine for more control over individual service configurations.
                 </p>
               </div>
               <div className="card__footer">
