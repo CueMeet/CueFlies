@@ -1,7 +1,7 @@
 {
   "id": "index",
-  "title": "CueFlies Documentation Structure",
-  "description": "Introduction",
+  "title": "Welcome to CueCal",
+  "description": "A modern calendar and meeting management system designed to streamline scheduling and event management.",
   "source": "@site/docs/index.md",
   "sourceDirName": ".",
   "slug": "/",
@@ -14,7 +14,7 @@
   "frontMatter": {},
   "sidebar": "docs",
   "next": {
-    "title": "Getting Started",
-    "permalink": "/getting-started"
+    "title": "Docker Installation",
+    "permalink": "/docker-installation"
   }
 }

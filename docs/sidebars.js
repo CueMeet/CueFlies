@@ -8,15 +8,13 @@ const sidebars = {
     },
     {
       type: 'doc',
-      id: 'getting-started',
-      label: 'Getting Started',
+      id: 'docker-installation',
+      label: 'Docker Installation',
     },
     {
-      type: 'category',
-      label: 'Guide',
-      items: [
-        'guide/basic-features',
-      ],
+      type: 'doc',
+      id: 'direct-installation',
+      label: 'Direct Installation',
     },
   ],
 };

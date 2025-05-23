@@ -6,7 +6,7 @@
 export default {
   "title": "CueFlies Documentation",
   "tagline": "Open Source Calendar and Meeting Management System",
-  "favicon": "img/favicon.ico",
+  "favicon": "img/logo.png",
   "url": "https://CueFlies.github.io",
   "baseUrl": "/",
   "organizationName": "CueMeet",
@@ -26,7 +26,7 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "/Users/thujeevan/Documents/Cuecard/project/cuemeet/Apps/CueFlies/docs/sidebars.js",
+          "sidebarPath": "/Users/thujeevan/Documents/Cuecard/project/cuemeet/Apps/CueCal/docs/sidebars.js",
           "editUrl": "https://github.com/CueMeet/CueFlies/edit/main/docs/",
           "routeBasePath": "/"
         },
@@ -37,7 +37,7 @@ export default {
           "blogSidebarCount": "ALL"
         },
         "theme": {
-          "customCss": "/Users/thujeevan/Documents/Cuecard/project/cuemeet/Apps/CueFlies/docs/src/css/custom.css"
+          "customCss": "/Users/thujeevan/Documents/Cuecard/project/cuemeet/Apps/CueCal/docs/src/css/custom.css"
         }
       }
     ]
@@ -52,39 +52,6 @@ export default {
       },
       "items": [],
       "hideOnScroll": false
-    },
-    "footer": {
-      "style": "dark",
-      "links": [
-        {
-          "title": "Docs",
-          "items": [
-            {
-              "label": "Getting Started",
-              "to": "/intro"
-            }
-          ]
-        },
-        {
-          "title": "Community",
-          "items": [
-            {
-              "label": "GitHub",
-              "href": "https://github.com/CueMeet/CueFlies"
-            }
-          ]
-        },
-        {
-          "title": "More",
-          "items": [
-            {
-              "label": "Blog",
-              "to": "/blog"
-            }
-          ]
-        }
-      ],
-      "copyright": "Copyright © 2025 CueFlies. Built with Docusaurus."
     },
     "prism": {
       "theme": {

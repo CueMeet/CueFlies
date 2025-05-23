@@ -39,37 +39,27 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', '491'),
+    component: ComponentCreator('/', '46c'),
     routes: [
       {
         path: '/',
-        component: ComponentCreator('/', '165'),
+        component: ComponentCreator('/', 'cbe'),
         routes: [
           {
             path: '/',
-            component: ComponentCreator('/', '2a0'),
+            component: ComponentCreator('/', 'db9'),
             routes: [
               {
-                path: '/configuration',
-                component: ComponentCreator('/configuration', '3cd'),
-                exact: true
-              },
-              {
-                path: '/getting-started',
-                component: ComponentCreator('/getting-started', 'ac2'),
+                path: '/direct-installation',
+                component: ComponentCreator('/direct-installation', 'f3b'),
                 exact: true,
                 sidebar: "docs"
               },
               {
-                path: '/guide/basic-features',
-                component: ComponentCreator('/guide/basic-features', 'f5f'),
+                path: '/docker-installation',
+                component: ComponentCreator('/docker-installation', 'd41'),
                 exact: true,
                 sidebar: "docs"
-              },
-              {
-                path: '/meeting-bot',
-                component: ComponentCreator('/meeting-bot', '1de'),
-                exact: true
               },
               {
                 path: '/',

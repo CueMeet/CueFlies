@@ -11,27 +11,19 @@
           "mainDocId": "index",
           "docs": [
             {
-              "id": "configuration",
-              "path": "/configuration"
-            },
-            {
-              "id": "getting-started",
-              "path": "/getting-started",
+              "id": "direct-installation",
+              "path": "/direct-installation",
               "sidebar": "docs"
             },
             {
-              "id": "guide/basic-features",
-              "path": "/guide/basic-features",
+              "id": "docker-installation",
+              "path": "/docker-installation",
               "sidebar": "docs"
             },
             {
               "id": "index",
               "path": "/",
               "sidebar": "docs"
-            },
-            {
-              "id": "meeting-bot",
-              "path": "/meeting-bot"
             }
           ],
           "draftIds": [],
