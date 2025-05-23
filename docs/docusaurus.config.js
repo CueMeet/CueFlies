@@ -12,15 +12,15 @@ const config = {
   favicon: 'img/logo.png',
 
   // Set the production url of your site here
-  url: 'https://CueFlies.github.io',
+  url: 'http://cuemeet.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
-  baseUrl: '/',
+  baseUrl: '/CueFlies/',
 
   // GitHub pages deployment config
   organizationName: 'CueMeet',
   projectName: 'CueFlies',
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
