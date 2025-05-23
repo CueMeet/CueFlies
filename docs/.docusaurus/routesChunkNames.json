@@ -1,88 +1,45 @@
 {
-  "/CueCal/__docusaurus/debug-18b": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---cue-cal-docusaurus-debugb-38-3c4"
-    }
-  },
-  "/CueCal/__docusaurus/debug/config-e2f": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---cue-cal-docusaurus-debugb-38-3c4"
-    }
-  },
-  "/CueCal/__docusaurus/debug/content-410": {
-    "__comp": "__comp---theme-debug-contentba-8-ce7",
-    "__context": {
-      "plugin": "plugin---cue-cal-docusaurus-debugb-38-3c4"
-    },
-    "__props": "__props---cue-cal-docusaurus-debug-content-171-1d4"
-  },
-  "/CueCal/__docusaurus/debug/globalData-798": {
-    "__comp": "__comp---theme-debug-global-dataede-0fa",
-    "__context": {
-      "plugin": "plugin---cue-cal-docusaurus-debugb-38-3c4"
-    }
-  },
-  "/CueCal/__docusaurus/debug/metadata-90d": {
-    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
-    "__context": {
-      "plugin": "plugin---cue-cal-docusaurus-debugb-38-3c4"
-    }
-  },
-  "/CueCal/__docusaurus/debug/registry-1bc": {
-    "__comp": "__comp---theme-debug-registry-679-501",
-    "__context": {
-      "plugin": "plugin---cue-cal-docusaurus-debugb-38-3c4"
-    }
-  },
-  "/CueCal/__docusaurus/debug/routes-6e3": {
-    "__comp": "__comp---theme-debug-routes-946-699",
-    "__context": {
-      "plugin": "plugin---cue-cal-docusaurus-debugb-38-3c4"
-    }
-  },
   "/CueCal/markdown-page-f45": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---cue-cal-markdown-pagea-74-3b4"
+      "plugin": "a7456010"
     },
-    "content": "content---cue-cal-markdown-page-393-b50"
+    "content": "393be207"
   },
   "/CueCal/docs-9cc": {
-    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__comp": "5e95c892",
     "__context": {
-      "plugin": "plugin---cue-cal-docsaba-63c"
+      "plugin": "aba21aa0"
     }
   },
   "/CueCal/docs-64f": {
-    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
-    "__props": "__props---cue-cal-docs-4-a-3-d5a"
+    "__comp": "a7bd4aaa",
+    "__props": "4a39b57f"
   },
   "/CueCal/docs-65f": {
-    "__comp": "__comp---theme-doc-roota-94-67a"
+    "__comp": "a94703ab"
   },
   "/CueCal/docs/intro-415": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---cue-cal-docs-intro-0-e-3-03e"
+    "__comp": "17896441",
+    "content": "0e384e19"
   },
   "/CueCal/docs/tutorial-basics/direct-installation-b9e": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---cue-cal-docs-tutorial-basics-direct-installatione-6-e-788"
+    "__comp": "17896441",
+    "content": "e6ed62ed"
   },
   "/CueCal/docs/tutorial-basics/docker-installation-431": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---cue-cal-docs-tutorial-basics-docker-installation-6-a-3-407"
+    "__comp": "17896441",
+    "content": "6a3b7d82"
   },
   "/CueCal/docs/tutorial-basics/installation-9be": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---cue-cal-docs-tutorial-basics-installation-8-a-9-97b"
+    "__comp": "17896441",
+    "content": "8a9fd8cb"
   },
   "/CueCal/-49e": {
-    "__comp": "__comp---site-src-pages-index-tsx-1-df-d3e",
+    "__comp": "1df93b7f",
     "__context": {
-      "plugin": "plugin---cue-cal-markdown-pagea-74-3b4"
+      "plugin": "a7456010"
     },
-    "config": "config---cue-cal-5-e-9-e39"
+    "config": "5e9f5e1a"
   }
 }
