@@ -4,14 +4,14 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "CueFlies Documentation",
-  "tagline": "Open Source Calendar and Meeting Management System",
+  "title": "CueCal",
+  "tagline": "AI-Powered Meeting Management",
   "favicon": "img/logo.png",
-  "url": "https://CueFlies.github.io",
-  "baseUrl": "/",
+  "url": "https://cuemeet.github.io",
+  "baseUrl": "/CueCal/",
   "organizationName": "CueMeet",
-  "projectName": "CueFlies",
-  "onBrokenLinks": "throw",
+  "projectName": "CueCal",
+  "onBrokenLinks": "warn",
   "onBrokenMarkdownLinks": "warn",
   "i18n": {
     "defaultLocale": "en",
@@ -26,18 +26,11 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "/Users/thujeevan/Documents/Cuecard/project/cuemeet/Apps/CueCal/docs/sidebars.js",
-          "editUrl": "https://github.com/CueMeet/CueFlies/edit/main/docs/",
-          "routeBasePath": "/"
-        },
-        "blog": {
-          "showReadingTime": true,
-          "editUrl": "https://github.com/CueMeet/CueFlies/edit/main/docs/blog/",
-          "blogSidebarTitle": "All posts",
-          "blogSidebarCount": "ALL"
+          "sidebarPath": "./sidebars.ts",
+          "editUrl": "https://github.com/CueMeet/CueCal/tree/main/docs/"
         },
         "theme": {
-          "customCss": "/Users/thujeevan/Documents/Cuecard/project/cuemeet/Apps/CueCal/docs/src/css/custom.css"
+          "customCss": "./src/css/custom.css"
         }
       }
     ]
@@ -45,13 +38,43 @@ export default {
   "themeConfig": {
     "image": "img/docusaurus-social-card.jpg",
     "navbar": {
-      "title": "CueFlies",
+      "title": "CueCal",
       "logo": {
-        "alt": "CueFlies Logo",
+        "alt": "CueCal Logo",
         "src": "img/logo.png"
       },
-      "items": [],
+      "items": [
+        {
+          "to": "/docs/intro",
+          "label": "Docs",
+          "position": "left"
+        }
+      ],
       "hideOnScroll": false
+    },
+    "footer": {
+      "style": "dark",
+      "links": [
+        {
+          "title": "Docs",
+          "items": [
+            {
+              "label": "Tutorial",
+              "to": "/docs/intro"
+            }
+          ]
+        },
+        {
+          "title": "More",
+          "items": [
+            {
+              "label": "GitHub",
+              "href": "https://github.com/CueMeet/CueCal"
+            }
+          ]
+        }
+      ],
+      "copyright": "Copyright © 2025 CueMeet, Inc. Built with Docusaurus."
     },
     "prism": {
       "theme": {

@@ -1,70 +1,88 @@
 {
-  "/__docusaurus/debug-5ff": {
+  "/CueCal/__docusaurus/debug-18b": {
     "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
+      "plugin": "plugin---cue-cal-docusaurus-debugb-38-3c4"
     }
   },
-  "/__docusaurus/debug/config-5ba": {
+  "/CueCal/__docusaurus/debug/config-e2f": {
     "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
+      "plugin": "plugin---cue-cal-docusaurus-debugb-38-3c4"
     }
   },
-  "/__docusaurus/debug/content-a2b": {
+  "/CueCal/__docusaurus/debug/content-410": {
     "__comp": "__comp---theme-debug-contentba-8-ce7",
     "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
+      "plugin": "plugin---cue-cal-docusaurus-debugb-38-3c4"
     },
-    "__props": "__props---docusaurus-debug-content-3-c-0-be2"
+    "__props": "__props---cue-cal-docusaurus-debug-content-171-1d4"
   },
-  "/__docusaurus/debug/globalData-c3c": {
+  "/CueCal/__docusaurus/debug/globalData-798": {
     "__comp": "__comp---theme-debug-global-dataede-0fa",
     "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
+      "plugin": "plugin---cue-cal-docusaurus-debugb-38-3c4"
     }
   },
-  "/__docusaurus/debug/metadata-156": {
+  "/CueCal/__docusaurus/debug/metadata-90d": {
     "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
     "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
+      "plugin": "plugin---cue-cal-docusaurus-debugb-38-3c4"
     }
   },
-  "/__docusaurus/debug/registry-88c": {
+  "/CueCal/__docusaurus/debug/registry-1bc": {
     "__comp": "__comp---theme-debug-registry-679-501",
     "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
+      "plugin": "plugin---cue-cal-docusaurus-debugb-38-3c4"
     }
   },
-  "/__docusaurus/debug/routes-000": {
+  "/CueCal/__docusaurus/debug/routes-6e3": {
     "__comp": "__comp---theme-debug-routes-946-699",
     "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
+      "plugin": "plugin---cue-cal-docusaurus-debugb-38-3c4"
     }
   },
-  "/-46c": {
+  "/CueCal/markdown-page-f45": {
+    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__context": {
+      "plugin": "plugin---cue-cal-markdown-pagea-74-3b4"
+    },
+    "content": "content---cue-cal-markdown-page-393-b50"
+  },
+  "/CueCal/docs-9cc": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
-      "plugin": "plugin---aba-d70"
+      "plugin": "plugin---cue-cal-docsaba-63c"
     }
   },
-  "/-cbe": {
+  "/CueCal/docs-64f": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
-    "__props": "__props---22-d-307"
+    "__props": "__props---cue-cal-docs-4-a-3-d5a"
   },
-  "/-db9": {
+  "/CueCal/docs-65f": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
-  "/direct-installation-f3b": {
+  "/CueCal/docs/intro-415": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---direct-installation-01-a-011"
+    "content": "content---cue-cal-docs-intro-0-e-3-03e"
   },
-  "/docker-installation-d41": {
+  "/CueCal/docs/tutorial-basics/direct-installation-b9e": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docker-installation-5-b-3-c53"
+    "content": "content---cue-cal-docs-tutorial-basics-direct-installatione-6-e-788"
   },
-  "/-bea": {
+  "/CueCal/docs/tutorial-basics/docker-installation-431": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---c-37-d02"
+    "content": "content---cue-cal-docs-tutorial-basics-docker-installation-6-a-3-407"
+  },
+  "/CueCal/docs/tutorial-basics/installation-9be": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---cue-cal-docs-tutorial-basics-installation-8-a-9-97b"
+  },
+  "/CueCal/-49e": {
+    "__comp": "__comp---site-src-pages-index-tsx-1-df-d3e",
+    "__context": {
+      "plugin": "plugin---cue-cal-markdown-pagea-74-3b4"
+    },
+    "config": "config---cue-cal-5-e-9-e39"
   }
 }

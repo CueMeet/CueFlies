@@ -1,53 +1,42 @@
-# CueFlies Documentation
+# Website
 
-This directory contains the documentation for CueFlies, built using [Docusaurus](https://docusaurus.io/).
+This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
-## Getting Started
+### Installation
 
-To run the documentation locally:
-
-1. Install dependencies:
-```bash
-yarn install
+```
+$ yarn
 ```
 
-2. Start the development server:
-```bash
-yarn start
+### Local Development
+
+```
+$ yarn start
 ```
 
-3. Open [http://localhost:3000](http://localhost:3000) in your browser.
+This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
-## Documentation Structure
+### Build
 
-- `docs/` - Contains all the documentation pages
-  - `intro.md` - Introduction to CueFlies
-  - `installation/` - Installation guides
-  - `configuration/` - Configuration guides
-  - `user-guide/` - User documentation
-  - `development/` - Developer documentation
-
-## Contributing to Documentation
-
-1. Create a new branch for your changes
-2. Make your changes
-3. Test locally using `yarn start`
-4. Submit a pull request
-
-## Building for Production
-
-To build the documentation for production:
-
-```bash
-yarn build
+```
+$ yarn build
 ```
 
-The built files will be in the `build` directory.
+This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
-## Deployment
+### Deployment
 
-The documentation is automatically deployed to GitHub Pages when changes are pushed to the main branch.
+Using SSH:
 
-## License
+```
+$ USE_SSH=true yarn deploy
+```
 
-This documentation is part of CueFlies and is released under the MIT License. 
+Not using SSH:
+
+```
+$ GIT_USER=<Your GitHub username> yarn deploy
+```
+
+If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+

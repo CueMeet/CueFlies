@@ -1,20 +1,23 @@
 {
   "id": "intro",
-  "title": "CueFlies Documentation Structure",
-  "description": "Introduction",
+  "title": "Introduction",
+  "description": "Welcome to CueCal Documentation! CueCal is a modern calendar integration and meeting management platform designed to streamline your meeting experience with AI-powered note-taking and analytics.",
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
   "slug": "/intro",
-  "permalink": "/intro",
+  "permalink": "/CueCal/docs/intro",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/CueMeet/CueFlies/edit/main/docs/docs/intro.md",
+  "editUrl": "https://github.com/CueMeet/CueCal/tree/main/docs/docs/intro.md",
   "tags": [],
   "version": "current",
-  "frontMatter": {},
-  "sidebar": "docs",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
   "next": {
-    "title": "Getting Started",
-    "permalink": "/getting-started"
+    "title": "Installation Overview",
+    "permalink": "/CueCal/docs/tutorial-basics/installation"
   }
 }
