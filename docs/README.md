@@ -40,3 +40,7 @@ $ GIT_USER=<Your GitHub username> yarn deploy
 
 If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
 
+<<<<<<< HEAD
+=======
+This documentation is part of CueFlies and is released under the MIT License.
+>>>>>>> cdeeeb8f277484357e3c1dd0d029c671191d581a

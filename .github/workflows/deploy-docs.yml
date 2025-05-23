@@ -1,0 +1,59 @@
+name: Deploy Documentation to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 20
+
+      - name: Install yarn
+        run: npm install -g yarn
+        working-directory: ./docs
+
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+        working-directory: ./docs
+
+      - name: Build site
+        run: |
+          yarn build
+          touch ./build/.nojekyll
+        working-directory: ./docs
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs/build
+          force_orphan: true
+          commit_message: "Deploy documentation to GitHub Pages"
+          enable_jekyll: false
+
+      - name: Create Release Tag
+        run: |
+          git config --global user.name 'GitHub Actions'
+          git config --global user.email 'actions@github.com'
+          TIMESTAMP=$(date +'%Y%m%d_%H%M%S')
+          VERSION="docs_$TIMESTAMP"
+          git tag -a "$VERSION" -m "Documentation release $VERSION"
+          git push origin "$VERSION"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
