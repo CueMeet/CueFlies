@@ -85,7 +85,7 @@ yarn install
 ```
 
 3. Set up environment variables:
-details>
+<details>
 <summary>Click to view/copy Backend API .env configuration</summary>
 
 ```env
