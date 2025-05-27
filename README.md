@@ -29,7 +29,7 @@ You can explore all our repositories for additional tools and integrations:
 This directory contains the documentation website built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
 <div align="center">
-  <h1>CueFLies Documentation</h1>
+  <h1>CueFlies Documentation</h1>
   <p>
     CueFlies is a comprehensive calendar platform that helps users manage their meetings efficiently. It provides features for Google Calendar integration, meeting management, automated note-taking, and meeting analytics.
   </p>
@@ -45,7 +45,7 @@ This directory contains the documentation website built using [Docusaurus](https
 
 To work with the documentation locally using Docker, you'll docker or compatible tool installed on your system.
 
-1. IBuild and start all services:
+1. Build and start all services:
 ```bash
 docker-compose up -d
 ```
