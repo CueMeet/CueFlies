@@ -23,7 +23,7 @@ CueFlies is a comprehensive calendar platform that helps users manage their meet
 CueFlies consists of two main components:
 
 ### Backend (NestJS)
-- RESTful API architecture
+- GraphQL 
 - Modular design with separate modules for:
   - Authentication (Google OAuth)
   - Calendar Management

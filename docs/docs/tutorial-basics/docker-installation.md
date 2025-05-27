@@ -6,6 +6,12 @@ sidebar_position: 2
 
 This guide will help you set up CueFlies using Docker on your local machine for development.
 
+## CueMeet Setup
+
+Before proceeding with CueHired installation, you'll need to set up CueMeet first. Please follow the [CueMeet local setup guide](https://cuemeet.github.io/cuemeet-documentation/docs/local-setup) to install and configure CueMeet on your system.
+
+
+
 ## Prerequisites
 
 Before you begin, ensure you have the following installed:
@@ -47,6 +53,8 @@ This command will:
 The Docker Compose setup includes the following environment variables:
 
 #### Backend Environment Variables
+<details>
+<summary>Click to view/copy Backend API .env configuration</summary>
 ```env
 NODE_ENV=development
 PORT=8080
@@ -63,12 +71,16 @@ GOOGLE_CLIENT_SECRET=
 GOOGLE_REDIRECT_URI=http://localhost:3000/google/callback
 CUEMEET_BASE_URL=
 ```
+⚠️ Important: The CueMeet-related environment variables must be obtained from the CueMeet Setup Guide. Complete the CueMeet setup first and copy the relevant values into this file.
+</details>
 
 #### Frontend Environment Variables
+<details>
+<summary>Click to view/copy Frontend .env configuration</summary>
 ```env
-NODE_ENV=development
 NEXT_PUBLIC_API_URL=http://backend:8080
 ```
+</details>
 
 ### Accessing Services
 - Frontend: http://localhost:3000
